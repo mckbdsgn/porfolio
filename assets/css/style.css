@@ -111,8 +111,9 @@ h1, h2, h3, h4, h5, h6 {
 #header .social-links a:hover {
   background: #ed3c0d;
 }
-@media (max-width: 992px) {
-  #header h1 {
+@media (max-width: 992px) 
+{}
+header h1 {
     font-size: 36px;
   }
   #header h2 {
@@ -832,32 +833,3 @@ section .container {
     transform: rotate(360deg);
   }
 }
-
-/*--------------------------------------------------------------
-# Credits
---------------------------------------------------------------*/
-.credits {
-  position: fixed;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  padding: 15px;
-  text-align: right;
-  font-size: 13px;
-  color: #fff;
-  z-index: 999999;
-}
-@media (max-width: 992px) 
-  {credits
-    text-align center
-    padding10px
-    background rgba0, 0, 0, 0.5     
-  }
-
-.credits a {
-  color: #18d26e;
-  transition: 0.3s;
-}
-.credits a:hover {
-  color: #fff;
-}     /style>     
