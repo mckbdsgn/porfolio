@@ -44,7 +44,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Major Mono Display', monospace;
+font-family: 'Major Mono Display', monospace;
 }
 
 /*--------------------------------------------------------------
@@ -79,11 +79,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 {
   font-size: 24px;
-  margin-top: 20px;
+    margin-top: 20px;
   color: #FFF51C;
 
 #header h2 span {
   color:#FFF51C;
+  font-weight: 400;
   border-bottom: 2px solid #1FB2F0;
   padding-bottom: 6px;
 }
@@ -209,7 +210,7 @@ header h1 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #1FB2F0;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -219,14 +220,14 @@ header h1 {
   width: 25px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: #ed3c0d;
 }
 
 /**
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #ed3c0d;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -325,7 +326,7 @@ section .container {
   line-height: 1px;
   margin: 0 0 20px 0;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: none;
   color: #ed3c0d;
   font-family: "font-family" 'Albert Sans', sans-serif;}
 .section-title h2::after {
@@ -817,6 +818,29 @@ section .container {
 .contact .php-email-form button[type=submit]:hover {
   background: #15bb62;
 }
+
+
+.credits {
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.credits img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle; /* To vertically align the image with the text */
+}
+
+.credits span {
+  color: #18d26e;
+  transition: 0.3s;
+}
+
+.credits a:hover span {
+  color: #fff;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
