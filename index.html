@@ -41,11 +41,11 @@
   <header id="header">
     <div class="container">
         <a href="index.html" class="mr-auto"><img src="assets/logo/logo_ 3.png" alt="" class="img-fluid"></a>
-      <h2>Beyond graphics; esign experiences.></h2>
+      <h2>Beyond graphics; design experiences. </h2>
 
       <nav id="navbar" class="navbar">
-        <li><a class="nav-link active" href="#header">Home</a></li>
         <ul>
+        <li><a class="nav-link active" href="#header">Home</a></li>
           <li><a class="nav-link" href="#about">About</a></li>
           <li><a class="nav-link" href="#resume">Resume</a></li>
           <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
@@ -126,7 +126,7 @@
           <div class="count-box">
             <i class="bi bi-emoji-smile"></i>
             <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Smoothed out slappy hours</p>
+            <p>High fives doled out to the public</p>
           </div>
         </div>
 
@@ -150,7 +150,7 @@
           <div class="count-box">
             <i class="bi bi-award"></i>
             <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-            <p>High fives doled out to the public</p>
+            <p>Hours since this time yesterday</p>
           </div>
         </div>
 
@@ -342,25 +342,39 @@
 
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
-          <div class="row portfolio-container">
-        <div class="col-lg-4 col-md-6">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Books</li>
+            <li data-filter=".filter-card">Flyers/Posters</li>
+            <li data-filter=".filter-web">Logos/Other</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
             <img src="assets/img/mbdbook_thm.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-                           <div class="portfolio-links">
-                <a href="assets/portfolio/for_github/Brandguidebook.pdf" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+              <h4>App 1</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/portfolio/for_github/Brandguidebook.pdf" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 ">
-          <div class="portfolio-wrap"> 
-            <img src="assets/img/brochure_thm.png" class="img-fluid" alt="">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/logo/navlogo.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-                            <div class="portfolio-links">
-                <a href="assets/portfolio/for_github/brochure.pdf" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/logo/logo_2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -369,12 +383,12 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/comp_thm.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>App 2</h4>
               <p>App</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/portfolio/for_github/COM_LAY.final.pdf" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -383,12 +397,12 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <img src="assets/img/masq_thm.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Card 2</h4>
               <p>Card</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/portfolio/for_github/MASQ.pdf" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
