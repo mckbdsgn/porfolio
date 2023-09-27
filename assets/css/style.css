@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: acier-bat-outline, sans-serif;
+  font-family: ITC Avant Garde Gothic Pro;
   background-color: #040404;
   color: #fff;
   position: relative;
@@ -78,11 +78,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
+font-family:fairwater-solid-serif;
 }
 #header h2 span {
   color: #fff;
   border-bottom: 2px solid #FFF51C;
   padding-bottom: 6px;
+  font-family:fairwater-open-serif;
 }
 #header img {
   padding: 0;
@@ -323,7 +325,8 @@ section .container {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "gimlet-display", serif;
+  font-family:fairwater-solid
+  -serif;
 }
 .section-title h2::after {
   content: "";
