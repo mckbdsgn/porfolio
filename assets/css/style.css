@@ -43,7 +43,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  
+  font-family: "gimlet-display", serif;
 }
 
 /*--------------------------------------------------------------
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  ont-family: "como", sans-serif;
+  font-family: "como", sans-serif;
 }
 #header h1 a, #header h1 a:hover {
   color: #fff;
