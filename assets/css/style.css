@@ -82,7 +82,7 @@ font-family:fairwater-solid-serif;
 }
 #header h2 span {
   color: #1FB2F0;
-  border-bottom: 1px dotted #FFF51C;
+  border-bottom: 1px dotted #ffffff;
   padding-bottom: 4px;
   font-family:fairwater-open-serif;
 }
@@ -108,7 +108,7 @@ font-family:fairwater-solid-serif;
   height: 40px;
 }
 #header .social-links a:hover {
-  background: #F03428s;
+  background: #F03428;
 }
 @media (max-width: 992px) {
   #header h1 {
@@ -191,7 +191,7 @@ font-family:fairwater-solid-serif;
   font-family: "fairwater-open-serif", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #1FB2F0
+  color: #1FB2F0;
   white-space: nowrap;
   transition: 0.3s;
 }
