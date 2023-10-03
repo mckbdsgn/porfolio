@@ -81,9 +81,8 @@ h1, h2, h3, h4, h5, h6 {
 font-family:fairwater-solid-serif;
 }
 #header h2 span {
-  color: #000000;
-  border-bottom: 1px dotted #ffffff;
-  padding-bottom: 4px;
+  color: #ffffff;
+ padding-bottom: 4px;
   font-family:fairwater-open-serif;
 }
 #header img {
