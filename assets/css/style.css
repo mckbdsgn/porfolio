@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-  color: #F03428;
+  color: #FFF51C;
   text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 font-family:fairwater-solid-serif;
 }
 #header h2 span {
-  color: #ffffff;
+  color:#f01f1f;
  padding-bottom: 4px;
   font-family:fairwater-open-serif;
 }
@@ -107,7 +107,7 @@ font-family:fairwater-solid-serif;
   height: 40px;
 }
 #header .social-links a:hover {
-  background: #F03428;
+  background: #1FB2F0;
 }
 @media (max-width: 992px) {
   #header h1 {
@@ -213,10 +213,11 @@ font-family:fairwater-solid-serif;
 }
 .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
   visibility: visible;
+  color: #ff1c1c;
   width: 25px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #ff1c1c;
+  color: #FFF51C;
 }
 
 /**
@@ -332,7 +333,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #F03428;
+  background: #ff1c1c;
   margin: 4px 10px;
 }
 .section-title p {
@@ -368,7 +369,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #1FB2F0;
+  color: #FFF51C;
   line-height: 0;
 }
 .about-me .content p:last-child {
@@ -396,7 +397,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #1FB2F0;
+  color: #FFF;
   border-radius: 50px;
   line-height: 0;
 }
@@ -442,7 +443,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #1FB2F0;
+  background-color: #ff1c1c;
 }
 
 /*--------------------------------------------------------------
@@ -537,7 +538,7 @@ section .container {
   background-color: rgba(255, 255, 255, 0.3);
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1FB2F0;
+  background-color: #FFF51C;
 }
 
 /*--------------------------------------------------------------
@@ -590,8 +591,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #1FB2F0;
-  border: 2px solid #1FB2F0;
+  background: #FFF51C;
+  border: 2px solid#FFF51C#FFF51C;
 }
 
 /*--------------------------------------------------------------
@@ -617,7 +618,7 @@ section .container {
   transform-style: preserve-3d;
 }
 .services .icon-box .icon i {
-  color: #fff;
+  color: #FFF51C;
   font-size: 28px;
 }
 .services .icon-box .icon::before {
@@ -638,7 +639,7 @@ section .container {
   font-size: 24px;
 }
 .services .icon-box h4 a {
-  color: #fff;
+  color: #FFF51C;
 }
 .services .icon-box p {
   line-height: 24px;
@@ -653,7 +654,7 @@ section .container {
   background: #fff;
 }
 .services .icon-box:hover .icon i {
-  color: #1FB2F0;
+  color: #FFF51C;
 }
 .services .icon-box:hover .icon::before {
   background: #F03428;
@@ -684,14 +685,15 @@ section .container {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.1);
+  color: #FFF;
+  background: rgba(255, 245, 28, 0.1);
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #1FB2F0;
+  color: #000;
+  background:#FFF51C;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -738,8 +740,8 @@ section .container {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #fff;
-  border-left: 3px solid #fff;
+  border-top: 3px solid#1FB2F0;
+  border-left: 3px solid #1FB2F0;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -751,8 +753,8 @@ section .container {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid #fff;
-  border-right: 3px solid #fff;
+  border-bottom: 3px solid #F03420;
+  border-right: 3px solid #F03428;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -773,14 +775,14 @@ section .container {
   z-index: 4;
 }
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  color: #FFF51C;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #F03428;
+   color: #FFF;
 }
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
@@ -806,7 +808,7 @@ section .container {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(240, 52, 40, 0.1);
   position: fixed;
   left: 0;
   right: 0;
@@ -856,10 +858,10 @@ section .container {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(240, 52, 40, 0.);
 }
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1FB2F0;
+  background-color: #FFF51C;
 }
 
 /*--------------------------------------------------------------
