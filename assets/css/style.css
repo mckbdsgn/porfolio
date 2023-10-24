@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../visual/bg.png") top right no-repeat;
+  background: #040404 url("../img/background.png") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -43,7 +43,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "gimlet-display", serif;
+  font-family: athena, sans-serif;
+  font-style: normal;
 }
 
 /*--------------------------------------------------------------
@@ -67,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  font-family: "como", sans-serif;
+  font-family: calibri, sans-serif;
 }
 #header h1 a, #header h1 a:hover {
   color: #fff;
@@ -78,12 +79,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
-font-family:fairwater-solid-serif;
+  font-family: athena-inline, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  
 }
 #header h2 span {
-  color:#f01f1f;
+  color:#1FB2F0;
  padding-bottom: 4px;
-  font-family:fairwater-open-serif;
+ font-family: athena-inline, sans-serif;
+ font-style: normal;
+ font-weight: 100;
+ 
 }
 #header img {
   padding: 0;
@@ -187,7 +194,7 @@ font-family:fairwater-solid-serif;
   align-items: center;
   justify-content: space-between;
   padding: 0;
-  font-family: "fairwater-open-serif", sans-serif;
+  font-family: "Athena-Inline",serif;
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
@@ -325,8 +332,7 @@ section .container {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family:fairwater-solid
-  -serif;
+  font-family:"Athena inline", serif;
 }
 .section-title h2::after {
   content: "";
@@ -342,7 +348,7 @@ section .container {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "acier-bat-noir", sans-serif;
+  font-family: "Athena inline", serif;
   color: #fff;
 }
 
@@ -372,8 +378,11 @@ section .container {
   color: #FFF51C;
   line-height: 0;
 }
-.about-me .content p:last-child {
-  margin-bottom: 0;
+.about-me .content p {
+  font-family: athena, sans-serif;
+  font-style: normal;
+  font-weight: 700
+  
 }
 
 /*--------------------------------------------------------------
@@ -764,7 +773,7 @@ section .container {
   font-weight: 600;
 }
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #ffffff;
+  color: #ffffff00;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
