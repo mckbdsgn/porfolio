@@ -243,5 +243,23 @@
       clickable: true
     }
   });
+// Add these lines at the end of your existing JavaScript file
+
+document.addEventListener('DOMContentLoaded', function () {
+  var introVideo = document.getElementById('intro-video');
+  var mainContent = document.getElementById('main-content');
+
+  // Wait for the video to finish (add event listener to 'ended')
+  introVideo.addEventListener('ended', function () {
+    introVideo.style.display = 'none';
+    mainContent.style.display = 'block';
+  });
+
+  // Alternatively, you can use a timeout if you want to control the duration
+  // setTimeout(function () {
+  //   introVideo.style.display = 'none';
+  //   mainContent.style.display = 'block';
+  // }, 15000); // 15 seconds
+});
 
 })()
