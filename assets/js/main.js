@@ -261,5 +261,15 @@ document.addEventListener('DOMContentLoaded', function () {
   //   mainContent.style.display = 'block';
   // }, 15000); // 15 seconds
 });
-
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var introVideo = document.getElementById('intro-video');
+    
+    introVideo.addEventListener('ended', function () {
+      // Redirect to #header when the video ends
+      window.location.href = '#header';
+    });
+  });
+</script>
+ 
 })()
