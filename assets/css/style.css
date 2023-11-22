@@ -8,10 +8,19 @@ body {
   position: relative;
   background: transparent;
 }
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; 
+}
+
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/ezgi.gif") top right no-repeat;
+  background: #040404 url() top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -614,73 +623,7 @@ section .container {
   border: 2px solid#FFF51C#FFF51C;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services .icon-box {
-  text-align: center;
-  background: rgba(204, 204, 204, 0.1);
-  padding: 80px 20px;
-  transition: all ease-in-out 0.3s;
-}
-.services .icon-box .icon {
-  margin: 0 auto;
-  width: 64px;
-  height: 64px;
-  background: #1FB2F0;
-  border-radius: 5px;
-  transition: all 0.3s ease-out 0s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transform-style: preserve-3d;
-}
-.services .icon-box .icon i {
-  color: #FFF51C;
-  font-size: 28px;
-}
-.services .icon-box .icon::before {
-  position: absolute;
-  content: "";
-  left: -8px;
-  top: -8px;
-  height: 100%;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 5px;
-  transition: all 0.3s ease-out 0s;
-  transform: translateZ(-1px);
-}
-.services .icon-box h4 {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 24px;
-}
-.services .icon-box h4 a {
-  color: #FFF51C;
-}
-.services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-.services .icon-box:hover {
-  background: #1FB2F0;
-  border-color: #1FB2F0;
-}
-.services .icon-box:hover .icon {
-  background: #fff;
-}
-.services .icon-box:hover .icon i {
-  color: #FFF51C;
-}
-.services .icon-box:hover .icon::before {
-  background: #F03428;
-}
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #fff;
-}
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -710,12 +653,15 @@ section .container {
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #000;
-  background:#FFF51C;
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  /* Add animation styles here if needed */
+  color: #000; /* Set the text color to black */
+  background: #FFF51C; /* Set the background color to a light yellow */
 }
+
 .portfolio #portfolio-flters li:last-child {
-  margin-right: 0;
+  margin-right: 0; /* Adjust the margin for the last child element */
 }
 .portfolio .portfolio-wrap {
   transition: 0.3s;

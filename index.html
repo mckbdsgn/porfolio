@@ -16,6 +16,54 @@
   <!--Fonts -->
   <link rel="stylesheet" href="https://use.typekit.net/nbc7hlb.css">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+       body {
+          margin: 0;
+          overflow: hidden; /* Prevent scrollbars from appearing */
+       }
+ 
+       #background-video {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover; /* Cover the entire viewport */
+          z-index: -1;
+       }
+ 
+       .content-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+       }
+ 
+       /* Additional styles for your content go here */
+    </style>
+ </head>
+ <body>
+ 
+    <!-- Background Video -->
+    <video autoplay muted loop id="background-video">
+       <source src="assets/img/bck.mp4" type="video/mp4">
+       Your browser does not support the video tag.
+    </video>
+ 
+    <!-- Content Overlay -->
+    <div class="content-overlay">
+       <!-- Your website content goes here -->
+      
+    </div>
+ 
+ </body>
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
