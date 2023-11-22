@@ -185,6 +185,33 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Common styles for all screen sizes */
+.portfolio #portfolio-flters li {
+  /* Your general styles here */
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  color: #000;
+  background: #FFF51C;
+}
+
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+/* Responsive styles for screens smaller than 768px (typical mobile screens) */
+@media only screen and (max-width: 768px) {
+  .portfolio #portfolio-flters li {
+    /* Adjust styles for smaller screens */
+  }
+
+  .portfolio #portfolio-flters li:last-child {
+    margin-right: 10px; /* Add some margin to the last child for spacing */
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
