@@ -187,15 +187,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Common styles for all screen sizes */
 
- #portfolio-flters li  
-  #portfolio-flters li
-  
-  {
-  /* Your general styles here */
-}
-
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+portfolio #portfolio-flters li.filter-active {
   color: #000;
   background: #FFF51C;
 }
@@ -268,15 +260,16 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
-}
-.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
-  visibility: visible;
-  color: #ff1c1c;
-  width: 25px;
-}
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #FFF51C;
-}
+
+  .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+    visibility: visible;
+    color: #ff1c1c;
+    width: 25px;
+  }
+  .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+    color: #FFF51C;
+  }
+  };
 
 /**
 * Mobile Navigation 
@@ -329,10 +322,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0;
   overflow-y: auto;
   transition: 0.3s;
-  border: 2px solid #f01f1f;
+  
 }
 .navbar-mobile li {
-  padding: 12px 20px;
+  padding: 120px 200px;
 }
 .navbar-mobile li + li {
   margin: 0;
