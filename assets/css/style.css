@@ -891,33 +891,3 @@ interests .icon-box {
 .credits a:hover {
   color: #fff;
 }
-
-
-
-/* Styles for the canvas */
-canvas {
-  border: 2px solid #fff;
-  display: block;
-  margin: 20px auto;
-}
-
-/* Styles for Pac-Man */
-#pacmanCanvas {
-  background-color: #000;
-}
-
-/* Styling the maze tiles */
-.maze-tile {
-  background-color: #3498db; /* Blue color for walls */
-}
-
-/* Styling Pac-Man's mouth */
-.pacman-mouth {
-  fill: #ff0; /* Yellow color for Pac-Man */
-  stroke: #000;
-}
-
-/* Styling Pac-Man's eye */
-.pacman-eye {
-  fill: #000;
-}
