@@ -13,8 +13,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Mack B Design co.</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="portfolio website" name="description">
+  <meta content="graphic design" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/logo/navlogo.png" rel="icon">
@@ -50,18 +50,11 @@
       0,
       0.5); /* Semi-transparent black overlay */
     }
-    /* Additional styles for your content go here */
-
+   
     @media (max-width: 768px) {
       #background-video {
         display: none; /* Hide video on mobile */
-  }}
-}}
-  </style>
-</head>
-
-<body>
-
+  }}  </style>
   <!-- Background Video -->
   <video autoplay muted loop id="background-video">
     <source src="assets/img/bck.mp4" type="video/mp4">
@@ -91,33 +84,51 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header">
+<header id="header">
     <div class="container">
       <a href="index.html" class="mr-auto"><img src="assets/logo/logo_ 3.png" alt="" class="img-fluid"></a>
-      <h2>Digital Artist<span>Graphic Designer</span></h2>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="4nav-link active" href="#header">Home</a></li>
-          <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#resume">Resume</a></li>
-          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-          
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
+      <h2>
+       Welcome to my portfolio! As a dedicated professional in [your field], 
+      I am thrilled to showcase my expertise and accomplishments in one centralized space. 
+      Thank you for considering me as a valuable addition to your team
+      Explore my work and experience to discover how my skills align with your organization's needs.
+      </h2>
+      
+    <p>
+     <!-- .navbar -->
+      
+     <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link active" href="#header">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#resume">Resume</a></li>
+        <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+      </ul>
+      
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+    <p>
     
-      <!-- .navbar -->
+    <style>
+    /* Add a media query to hide the mobile nav on larger screens */
+    @media screen and (min-width: 768px) {
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+    </style>
+    
+    <div class="social-links">
+      <a href="https://www.youtube.com/@Mack_B" class="Youtube"><i class="bi bi-youtube"></i></a>
+      <a href="https://www.instagram.com/mack.awesome/" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/brian-macadan-4b8615260/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+  </div>
+
+
+</header><!-- End Header -->
+</header>
 
      
-      <div class="social-links">
-        <a href="https://www.youtube.com/@Mack_B" class="Youtube"><i class="bi bi-youtube"></i></a>
-        <a href="https://www.instagram.com/mack.awesome/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/brian-macadan-4b8615260/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-    </div>
-
-
-  </header><!-- End Header -->
 
 <!-- ======= About Me Section ======= -->
 <section id="about" class="about">
@@ -133,8 +144,7 @@
       <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h3>Digital Artist &amp; Graphic Designer</h3>
         <p class="fst-italic">
-          Born upon the enchanting shores of Prince Edward Island, amid the ebb and flow of maritime existence, Mack embarked on a voyage unprecedented.
-          From the laborious toil aboard mussel and oyster farming vessels to the helm of his self-fashioned destiny, the odyssey unfolded.
+       
         </p>
         <div class="row">
           <div class="col-lg-6">
@@ -154,16 +164,12 @@
           </div>
         </div>
         <p>
-          In the realm of Mack's design philosophy, simplicity intertwines seamlessly with grandeur—a symphony
-          of creativity that unfolds like a lone firework against the backdrop of a traditional night sky,
-          captivating the gaze of all who behold it. Mack's distinctive touch lies in his natural inclination to
-          defy expectations and veer from the anticipated path. His creative process is a meticulous artistry,
-          starting with the foundational "bones" patiently awaiting the infusion of vibrant hues, akin to an artisan
-          assembling a mosaic masterpiece. Within Mack's portfolio, each creation is more than a culinary compendium—it
-          is a narrative, an homage to the intertwining realms of kinship and artistic expression. Beyond the scope
-          of graphic design, Mack emerges as a polymath, embracing the realms of comedy, harmonious cadences, and the
-          pursuit of nature's elusive wonders. More than a graphic designer, Mack assumes the role of an artist on a
-          profound mission—to redefine the commonplace and elevate it to the extraordinary.
+          Originating from Prince Edward Island, Mack's professional journey began in the maritime industry,
+          progressing from laborious work on mussel and oyster farming vessels to self-directed pursuits. In his
+          design philosophy, Mack seamlessly integrates simplicity with grandeur, employing a meticulous creative
+          process comparable to crafting a refined masterpiece. Beyond graphic design, Mack demonstrates a versatile
+          skill set, delving into realms such as comedy, music, and a deep appreciation for the wonders of nature,
+          embodying an artist's mission to redefine the commonplace and elevate it to the extraordinary.
         </p>
       </div>
     </div>
@@ -198,23 +204,10 @@
         </div>
       </div>
     </div>
-  </div>
-
-The issue with the provided code is that the @keyframes animation "shimmer" is not being used anywhere. It is defined but not applied to any elements.
-
-To fix this, we need to:
-
-1. Add the "shimmer" animation to the div that creates the shimmer effect in the portfolio image links:
-
 <div style="
   animation: shimmer 1s infinite; 
 ">
 
-2. Set the opacity to 1 so the shimmer effect is visible: 
-
-opacity: 1;
-
-The updated code would be:
 
 <style>
 .portfolio-links a:hover img {
@@ -244,11 +237,7 @@ The updated code would be:
   ">
 </a>
 
-This will make the "shimmer" animation run on the div when the portfolio image links are hovered over.
-
-
-
-      <!-- Skills -->
+     <!-- Skills -->
     <div class="skills container">
       <div class="section-title">
         <h2>Skills</h2>
@@ -354,7 +343,40 @@ This will make the "shimmer" animation run on the div when the portfolio image l
           </section>
 
           <!-- Portfolio  -->
-
+          <div style="
+          animation: shimmer 1s infinite;
+          opacity: 1;
+        ">
+        </div>
+        
+        <style>
+        .portfolio-links a:hover img {
+          transform: scale(1.1); /* Scale the image on hover */
+          filter: drop-shadow(0 0 10px rgba(0,
+          0,
+          0,
+          0.5)); /* Add drop shadow */
+        }
+        
+        @keyframes shimmer {
+          0% {
+            background-position: -200% 0;
+          }
+          100% {
+            background-position: 200% 0;
+          }
+        }
+        </style>
+        
+        <a href="...">
+          <img ...>
+          
+          <div style="
+            animation: shimmer 1s infinite; 
+            opacity: 1;
+          ">
+        
+        </a>
 <section id="portfolio" class="portfolio-info">
         <div class="row portfolio-container">
           <div class="portfolio" class="lightbox">
