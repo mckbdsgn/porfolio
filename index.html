@@ -189,24 +189,110 @@
       <div class="portfolio-info">
         <div class="portfolio-links">
             <img src="assets/thumbs/resume_button.gif" class="img-fluid" alt="Resume">
+            <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Lightbox</title>
+  <style>
+    /* Styling for the lightbox */
+    #lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    #lightbox img {
+      max-width: 80%;
+      max-height: 80%;
+      border: 2px solid #fff;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+      cursor: pointer;
+    }
+
+    /* Styling for the lightbox trigger */
+    #lightbox-trigger {
+      cursor: pointer;
+    }
+
+    /* Styling for the checkbox (hidden) */
+    #lightbox-checkbox {
+      display: none;
+    }
+
+    /* Styling for the overlay when lightbox is active */
+    #lightbox-trigger:target + #lightbox {
+      display: flex;
+      opacity: 1;
+    }
+
+    /* Styling for the "Reveal CV" button */
+    #reveal-button {
+      cursor: pointer;
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    /* Styling for the "Close" button inside the lightbox */
+    #close-button {
+      cursor: pointer;
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Button to reveal the lightbox -->
+<button id="reveal-button" onclick="location.href='#lightbox-trigger'">Reveal CV</button>
+
+<!-- Trigger for the lightbox -->
+<label for="lightbox-checkbox" id="lightbox-trigger"></label>
+
+<!-- The lightbox container -->
+<div id="lightbox">
+  <input type="checkbox" id="lightbox-checkbox">
+  <label for="lightbox-checkbox">
+    <img src="assets/img/resume.png" alt="Resume Image">
+    <!-- Close button inside the lightbox -->
+    <button id="close-button" onclick="location.href='#resume-trigger'">Close</button>
+  </label>
+</div>
           </a>
         </div>
       </div>
     </div>
-
-  <style>
-    .portfolio-links a:hover img {
-      transform: scale(1.1); 
-      filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
-    }
-  </style>
-
+  
 </section>
+
             <!-- Portfolio  -->
           <div style="
           animation: shimmer 1s infinite;
           opacity: 1;
         ">
+        <style>
+          .portfolio-links a:hover img {
+            transform: scale(1.1); 
+            filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+          }
+        </style>
+      
         </div>
         
         <style>
