@@ -205,9 +205,11 @@ portfolio #portfolio-flters li.filter-active {
 }
 
 /* Responsive styles for screens smaller than 768px (typical mobile screens) */
-@media only screen and (max-width: 768px) {
-  .portfolio
-  #portfolio- flters li {
+@media only screen and (max-width: 768px) 
+{
+.portfolio
+
+#portfolio- flters li {
     /* Adjust styles for smaller screens */
   }
 
@@ -215,7 +217,28 @@ portfolio #portfolio-flters li.filter-active {
     margin-right: 10px; /* Add some margin to the last child for spacing */
   }
 }
+/*--------------------------------------------------------------
+# Game Dev Section
+--------------------------------------------------------------*/
+/**
+* Dreamhowl 
+*/
 
+#dreamhowl-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.dreamhowl-section {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
